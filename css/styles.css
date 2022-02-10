@@ -1,0 +1,216 @@
+:root {
+    --accent: #2196F3;
+/* основной цвет */
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+
+    --primary-bg-color: #FFFFFF;
+    --footer-bg-color: #2F303A;
+    --footer-text-color:#FFFFFF;
+    --footer-contact-color:rgba(255, 255, 255, 0.6);
+
+    --logo-black:#000000;
+    --logo-white:#FFFFFF;
+/* Герой цвет*/
+    --hero-bg-color:#2F303A;
+    --hero-text-color:#ffffff;
+/* Герой-кнопка цвет*/
+    --hero-btn-color:#2196F3;
+    --hero-btn-color-accent:#188CE8;
+    --hero-btn-text-color:#ffffff;
+/* фильтер цвет */
+    --filter-text-color:#212121;
+    --filter-bg-color:#F5F4FA; 
+
+    --filter-accent-text-color:#FFFFFF;
+    --filter-accent-bg-color:#2196F3;
+} 
+body{
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+.text{
+    color:var(--secondary-text-color);
+}
+.title{
+    color: var(--primary-text-color);
+    font-weight: 700;
+}
+        /* Шапка сайта */
+.header{
+    
+}
+.header-logo{
+    color: var(--logo-black);
+    font-family: Raleway, serif;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.header-logo > span{
+    color: var(--accent);
+}
+.nav-link{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--accent);
+}
+.nav-contact{
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+}
+.nav-contact:hover,
+.nav-contact:focus{
+    color: var(--accent);
+}
+
+        /* Герой */
+.hero{
+    background-color: var(--hero-bg-color);
+    color: var(--hero-text-color);
+}
+.hero-title{
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hero-button{
+    color: var(--hero-btn-text-color); 
+    background-color: var(--hero-btn-color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.hero-button:hover{
+    background-color: var(--hero-btn-color-accent);
+}
+        /* Достоинства */
+.feature > h2{
+    display: none;
+}
+ .feature-title{
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.feature-text{
+    text-align: center;
+    line-height: 1.71;
+} 
+
+        /* Деятельность */
+.performance-title{
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+        /* Команда */
+.team{
+}
+.team-title{
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+.team-text{
+    line-height: 1.18;
+}
+.team-caption{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+        /* Подвал */
+.footer{
+    background-color: var(--footer-bg-color); 
+}
+.footer-logo{
+    color: var(--logo-white);
+    font-family: Raleway, serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.footer-logo > span{
+    color: var(--accent);
+
+}
+.footer-text{
+    color: var(--footer-text-color);
+    line-height: 1.85;
+    text-align: center;
+}
+.footer-contact{
+    color: var(--footer-contact-color);
+    line-height: 1.71;
+    text-align: center;
+}
+.footer-contact:hover,
+.footer-contact:focus{
+    color: var(--accent);
+}
+/* Страница Портфолио */
+.portfolio-page > h1{
+    display: none;
+}
+.portfolio-page{
+}
+.filter-list{
+}
+.filter-item{
+}
+.filter-btn{
+    color: var(--filter-text-color);
+    background-color: var(--filter-bg-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    color: var(--filter-accent-text-color);
+    background-color: var(--filter-accent-bg-color);
+}
+.portfolio-list{}
+.portfolio-item{}
+.portfolio-title{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+}
