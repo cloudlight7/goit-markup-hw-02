@@ -63,7 +63,7 @@ ul, ol{
 }
 .nav-contact:hover,
 .nav-contact:focus{
-    color: var(--accent);
+    color: var(--accent-color);
 }
 
         /* Герой */
@@ -201,6 +201,7 @@ ul, ol{
 .portfolio-list{}
 .portfolio-item{}
 .portfolio-title{
+    color: var(--primary-text-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
